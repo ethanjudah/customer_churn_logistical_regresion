@@ -18,7 +18,7 @@ and finds the values of parameters  𝜃0,𝜃1,𝜃2
  , etc, where the term  𝜃0
   is the "intercept". It can be generally shown as:
 
-ℎ𝜃(𝑥)=𝜃𝑇𝑋
+ℎ𝜃(𝑥)=𝜃^𝑇𝑋
  
 Logistic Regression is a variation of Linear Regression, used when the observed dependent variable, y, is categorical. It produces a formula that predicts the probability of the class label as a function of the independent variables.
 
