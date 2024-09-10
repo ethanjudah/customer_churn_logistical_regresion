@@ -24,10 +24,8 @@ Logistic Regression is a variation of Linear Regression, used when the observed 
 
 Logistic regression fits a special s-shaped curve by taking the linear regression function and transforming the numeric estimate into a probability with the following function, which is called the sigmoid function 𝜎:
 
-ℎ𝜃(𝑥)=𝜎(𝜃𝑇𝑋)=𝑒(𝜃0+𝜃1𝑥1+𝜃2𝑥2+...)1+𝑒(𝜃0+𝜃1𝑥1+𝜃2𝑥2+⋯)
- 
-Or:
-𝑃𝑟𝑜𝑏𝑎𝑏𝑖𝑙𝑖𝑡𝑦𝑂𝑓𝑎𝐶𝑙𝑎𝑠𝑠1=𝑃(𝑌=1|𝑋)=𝜎(𝜃𝑇𝑋)=𝑒𝜃𝑇𝑋1+𝑒𝜃𝑇𝑋
+<img width="1013" alt="Screenshot 2024-09-10 at 14 10 51" src="https://github.com/user-attachments/assets/16ecf2c3-68a0-4182-b490-e392ae8b9ea3">
+
  
 In this equation,  𝜃𝑇𝑋
   is the regression result (the sum of the variables weighted by the coefficients), exp is the exponential function and  𝜎(𝜃𝑇𝑋)
